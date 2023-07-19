@@ -293,7 +293,7 @@ CREATE TABLE `ay_extfield` (
   KEY `ay_extfield_mcode` (`mcode`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 INSERT INTO `ay_extfield` (`id`,`mcode`,`name`,`type`,`value`,`description`,`sorting`) VALUES
- ('1', '3', 'ext_kuanshi', '1', '', '款式', '255'),
+ ('1', '3', 'ext_kuanshi', '1', '', '款式', '255');
 -- 表：ay_form
 
 
@@ -671,7 +671,7 @@ CREATE TABLE `ay_model` (
 INSERT INTO `ay_model` (`id`,`mcode`,`name`,`type`,`urlname`,`listtpl`,`contenttpl`,`status`,`issystem`,`create_user`,`update_user`,`create_time`,`update_time`) VALUES
  ('1', '1', '专题', '1', 'pages', '', 'about.html', '1', '1', 'admin', 'admin', '2018-04-11 17:16:01', '2019-08-05 11:11:44'),
  ('2', '2', '新闻', '2', 'list', 'newslist.html', 'news.html', '1', '1', 'admin', 'admin', '2018-04-11 17:17:16', ' 2022-03-03 10:30:39'),
- ('3', '3', '藏品', '2', 'list', 'productlist.html', 'product.html', '1', '0', 'admin', 'admin', '2018-04-11 17:17:46', ' 2022-03-03 10:30:46'),
+ ('3', '3', '藏品', '2', 'list', 'productlist.html', 'product.html', '1', '0', 'admin', 'admin', '2018-04-11 17:17:46', ' 2022-03-03 10:30:46');
 
 -- 表：ay_role
 DROP TABLE IF EXISTS `ay_role`;
