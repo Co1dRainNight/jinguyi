@@ -1,0 +1,49 @@
+﻿语言程序：PHP + SQLite
+前端规范：html+css+jQuery
+程序运行环境：linux+nginx/ linux+apache / windows + iis(支持php5.4+) / 其他支持php5.4+环境
+推荐宝塔Linux+nginx+php5.6
+
+1、安装请参考网址 http://www.5moban.com/211.html
+
+2、/data/xxx.db  默认采用Sqlite数据库，放入PHP（5.4+）环境即可直接使用
+
+
+3、后台访问 系统后台默认访问路径：http://域名/admin.php   账号：admin   密码：admin
+
+* 为了安全，可以把根目录下的admin.php改成数字和字母的组合， 根目录下的data文件夹改一下名，数据库改一下名xxx.db。
+* \config\database.php  里的数据配置 'dbname' => '/data/xxx.db'   要与你的改的文件夹名和数据库名要一致。
+
+
+更多模板：http://www.WanWeiZhan.Com/    联系QQ:43171398
+
+
+1、pbootcms基本安装教程
+http://www.eclong.com/74.html
+
+2、忘记密码或多次输入错误的密码报错提示
+
+http://www.5moban.com/152.html
+
+3、pbootcms伪静态教程
+http://www.5moban.com/76.html
+
+4、Sqlite数据库转Mysql数据库教程
+http://www.5moban.com/2871.html
+
+5、PbootCMS技术教程：
+http://book.5moban.com/
+
+
+更多教程：http://www.BaJieZhan.Com/xueyuan/
+
+
+
+
+/* QQ：43171398 */
+/* 站长交流群①：183945698 */
+/* 站长交流群②：183966298 */
+/* 商业VIP群 ③  183989070 */
+/* 会员VIP群 ④ ：38400389 */
+
+/* PB模板网（5moban.com）做最好的pbootcms整站模板下载网站 */
+/* 新云站长网（XinYunZhan.com）做最好的eyoucms整站模板下载网站 */

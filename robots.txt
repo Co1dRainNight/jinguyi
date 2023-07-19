@@ -1,0 +1,60 @@
+#我的PB模板网（5MoBan.com）做最好的整站PbootCMS模板下载网站
+#万维站长：    Www.WanWeiZhan.Com
+#主机/服务器： Www.Elubaba.Com
+#城市分站：    Www.YiQiDa.Com
+#新目录导航：  Www.XinMuLu.Com
+User-agent: *
+
+Allow: /
+
+Disallow: /ad*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#万维站长网 各类模版第一站 www.WanWeiZhan.Com
+#主机/服务器： Www.Elubaba.Com
+#我的PB模板网（5MoBan.com）做最好的整站PbootCMS模板下载网站
+#云云安（YunYunAn.com）做最好的整站云优CMS模板下载网站

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>该网站尚未获得授权,请联系人员获取授权许可！</title>
+<link rel="stylesheet" href="static/css/404.css">
+</head>
+<body>
+<div class="auto">
+<div class="container">
+<div class="settings">
+<i class="icon"></i>
+<h4>该网站尚未获得授权,请联系人员获取授权许可！ </h4>
+<div>
+<!--<a href="tencent://message/?uin=43171398" target="_blank">--><a href="http://www.5moban.com/211.html" target="_blank">点击获取授权教程说明</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+	//倒计时跳转到首页的js代码
+	var $_num=$("#num");
+	var num=parseInt($_num.html());
+	var numId=setInterval(function(){
+		num--;
+		$_num.html(num);
+		if(num===0){
+			//跳转地址写在这里
+			window.location.href="http://www.pbku.cn/pbootcms/";
+		}
+	},1000);
+	//返回按钮单击事件
+	var reloadPage = $("#reload-btn");
+	reloadPage.click(function(e){
+		window.history.back();
+	});
+</script>
+</body>
+</html>

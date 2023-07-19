@@ -1,0 +1,23 @@
+<div class="top_bg">
+<div class="width">
+	<p class="top1">{label:top}</p>
+    <p class="link"><a class="link1" onMouseOver="document.all.code.style.display='block'" onMouseOut="document.all.code.style.display='none'"></a><a class="link2" href="" target="_blank"></a><a class="link3" href="{label:taobao}" target="_blank"></a></p>
+    <div class="code" id="code"><img src="{pboot:companyweixin}" alt="{pboot:companyname}"></div>
+</div>
+</div>
+
+<div class="nav_bg">
+<div class="width">
+	<a class="logo" href="{pboot:sitedomain}/"><img src="{pboot:sitelogo}" alt="{pboot:companyname}"></a>
+    <div class="nav"><a href="{pboot:sitedomain}/"{pboot:if(0=='{sort:scode}')} class="cur"{/pboot:if}>网站首页</a>{pboot:nav} | <a href="[nav:link]"{pboot:if('[nav:scode]'=='{sort:tcode}')} class="cur"{/pboot:if}>[nav:name]</a>{/pboot:nav}</div>
+    <div class="top2">
+    	<p class="tel">{pboot:companyphone}</p>
+        <div class="search">
+        <form action="{pboot:scaction}" method="get">
+        <input name="keyword" class="search1" type="text" required>
+        <input class="search2" type="submit" value="">
+        </form>
+        </div>
+    </div>
+</div>
+</div>

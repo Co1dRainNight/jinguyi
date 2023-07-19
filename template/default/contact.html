@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="BaJieZhan.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{sort:title}</title>
+<meta name="keywords" content="{sort:keywords}">
+<meta name="description" content="{sort:description}">
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+{include file=head.html}
+
+<div class="ban" style="background:url({pboot:sort scode={sort:tcode}}[sort:pic]{/pboot:sort}) center no-repeat;"></div>
+<div class="ban_bg"></div>
+
+<div class="contact">
+<div class="width">
+	<p class="title title2">{sort:name}</p>
+    <div class="desc" style="text-align:center;">
+    	<p>欢迎光临深圳文化产权交易所古典艺术品版权事业部，主要运营文化艺术交流、版权数字化服务、数字科技服务、数字版权交易等内容。</p>
+	</div>
+    <div class="c1_bg">
+    	<div class="c1">
+        	<p class="c1_t">联系电话</p>
+            <div class="desc">{pboot:companyphone}</div>
+        </div>
+        <div class="c1">
+        	<p class="c1_t">座机电话</p>
+            <div class="desc">{pboot:companymobile}</div>
+        </div>
+        <div class="c1">
+        	<p class="c1_t">企业邮箱</p>
+            <div class="desc"><a href="mailto:{pboot:companyemail}">{pboot:companyemail}</a></div>
+        </div>
+        <div class="c1">
+        	<p class="c1_t">公司地址</p>
+            <div class="desc">{pboot:companyaddress}</div>
+        </div>
+    </div>
+    <p class="title title2">留言</p>
+    <div class="desc" style="text-align:center;">
+    	<p>若您对我们产品或网站内容有任何疑问，请联系我们，我们将尽快与您取得联系。</p>
+	</div>
+    <form action="{pboot:msgaction}" method="post">
+    	<input name="contacts" class="in1" type="text" placeholder="姓名" required>
+        <input name="mobile" class="in1" type="text" placeholder="电话" required>
+        <input name="email" class="in1" type="email" placeholder="邮箱">
+        <textarea name="content" class="in2" placeholder="内容"></textarea>
+        <input class="in3" type="submit" value="提交">
+    </form>
+</div>
+</div>
+{include file=foot.html}
+</body>
+</html>

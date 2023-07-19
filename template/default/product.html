@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="5moban.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{content:title}-{pboot:sitetitle}</title>
+<meta name="keywords" content="{content:keywords}">
+<meta name="description" content="{content:description}">
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+{include file=head.html}
+
+<div class="ban" style="background:url({pboot:sort scode={sort:tcode}}[sort:pic]{/pboot:sort}) center no-repeat;"></div>
+
+<div class="pro_bg">
+<div class="width">
+	<p class="pro_nav">{pboot:nav parent={sort:tcode}}<a href="[nav:link]"{pboot:if('[nav:scode]'=='{sort:scode}')} class="cur2"{/pboot:if}>[nav:name]</a>{/pboot:nav}</p>
+    <div class="pro_picbg">
+    	{pboot:pics id={content:id} num=5}<div class="pro_pic0[pics:i]{pboot:if('[pics:i]'=='1')} pro_zindex{/pboot:if}" style="background:url([pics:src]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[pics:src]', sizingMethod='scale');"><img class="image" src="[pics:src]" alt="{content:title}"></div>
+        {/pboot:pics}
+    </div>
+    <div class="pro_p">
+    	<p class="pro_t"><span>{content:title}</span></p>
+        <dl class="adminbuycn">
+        	<dd>款式：{content:ext_kuanshi}</dd>
+            <dd>工艺：{content:ext_gongyi}</dd>
+        	<dt>价格：<span>{content:ext_jiage}</span> 元</dt>
+        </dl>
+        <div class="pro_pic1">
+        	{pboot:pics id={content:id} num=5}<div class="pro_pic1[pics:i]{pboot:if('[pics:i]'=='1')} pro_border{/pboot:if}" style="background:url([pics:src]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[pics:src]', sizingMethod='scale');"><img class="image" src="[pics:src]" alt="{content:title}"></div>
+            {/pboot:pics}
+        </div>
+        <div class="clear"></div>
+        <a class="pro_more1" href="{content:ext_dizhi}" target="_blank" rel="nofollow">立即购买</a>
+    </div>
+    <div class="clear"></div>
+    <p class="pro_t2">产品详情</p>
+    <div class="desc" id="maximg">
+    	{content:content}
+    </div>
+</div>
+</div>
+<script>
+jQuery(document).ready(function($) {
+	$('.pro_pic11').click(function(){
+		$('.pro_pic11').addClass("pro_border");
+		$('.pro_pic01').addClass("pro_zindex");
+		$('.pro_pic12').removeClass("pro_border");
+		$('.pro_pic02').removeClass("pro_zindex");
+		$('.pro_pic13').removeClass("pro_border");
+		$('.pro_pic03').removeClass("pro_zindex");
+		$('.pro_pic14').removeClass("pro_border");
+		$('.pro_pic04').removeClass("pro_zindex");
+		$('.pro_pic15').removeClass("pro_border");
+		$('.pro_pic05').removeClass("pro_zindex");
+	})
+	$('.pro_pic12').click(function(){
+		$('.pro_pic12').addClass("pro_border");
+		$('.pro_pic02').addClass("pro_zindex");
+		$('.pro_pic11').removeClass("pro_border");
+		$('.pro_pic01').removeClass("pro_zindex");
+		$('.pro_pic13').removeClass("pro_border");
+		$('.pro_pic03').removeClass("pro_zindex");
+		$('.pro_pic14').removeClass("pro_border");
+		$('.pro_pic04').removeClass("pro_zindex");
+		$('.pro_pic15').removeClass("pro_border");
+		$('.pro_pic05').removeClass("pro_zindex");
+	})
+	$('.pro_pic13').click(function(){
+		$('.pro_pic13').addClass("pro_border");
+		$('.pro_pic03').addClass("pro_zindex");
+		$('.pro_pic12').removeClass("pro_border");
+		$('.pro_pic02').removeClass("pro_zindex");
+		$('.pro_pic11').removeClass("pro_border");
+		$('.pro_pic01').removeClass("pro_zindex");
+		$('.pro_pic14').removeClass("pro_border");
+		$('.pro_pic04').removeClass("pro_zindex");
+		$('.pro_pic15').removeClass("pro_border");
+		$('.pro_pic05').removeClass("pro_zindex");
+	})
+	$('.pro_pic14').click(function(){
+		$('.pro_pic14').addClass("pro_border");
+		$('.pro_pic04').addClass("pro_zindex");
+		$('.pro_pic12').removeClass("pro_border");
+		$('.pro_pic02').removeClass("pro_zindex");
+		$('.pro_pic13').removeClass("pro_border");
+		$('.pro_pic03').removeClass("pro_zindex");
+		$('.pro_pic11').removeClass("pro_border");
+		$('.pro_pic01').removeClass("pro_zindex");
+		$('.pro_pic15').removeClass("pro_border");
+		$('.pro_pic05').removeClass("pro_zindex");
+	})
+	$('.pro_pic15').click(function(){
+		$('.pro_pic15').addClass("pro_border");
+		$('.pro_pic05').addClass("pro_zindex");
+		$('.pro_pic12').removeClass("pro_border");
+		$('.pro_pic02').removeClass("pro_zindex");
+		$('.pro_pic13').removeClass("pro_border");
+		$('.pro_pic03').removeClass("pro_zindex");
+		$('.pro_pic14').removeClass("pro_border");
+		$('.pro_pic04').removeClass("pro_zindex");
+		$('.pro_pic11').removeClass("pro_border");
+		$('.pro_pic01').removeClass("pro_zindex");
+	})
+})
+</script>
+
+{include file=foot.html}
+
+</body>
+</html>

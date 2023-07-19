@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="www.XinYunZhan.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{sort:title}</title>
+<meta name="keywords" content="{sort:keywords}">
+<meta name="description" content="{sort:description}">
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+{include file=head.html}
+
+<div class="ban" style="background:url({pboot:sort scode={sort:tcode}}[sort:pic]{/pboot:sort}) center no-repeat;"></div>
+<div class="ban_bg"></div>
+
+<div class="a1">
+<div class="width">
+	<p class="title title2">{sort:name}</p>
+    <div class="desc" id="maximg">
+    	{content:content}
+    </div>
+</div>
+</div>
+
+<div class="a2">
+<div class="width">
+    <div class="desc">
+        <p>深圳文化产权交易所联合深圳市今古意文化艺术科技有限公司成立 “古典艺术品数字版权事业部”，为文化艺术品数字化服务、艺术品运营提供综合服务，构建古典文化艺术品数字版权交易平台，涵盖文化艺术品物权 / 版权确权、确真、确值服务及流通交易。</p>
+        <p>古典艺术品数字版权事业部是对 “国家文化数字化战略” 的积极探索和创新实践，包括但不限于文化资产资源类，数字版权等无形资产类的交易，针对古典艺术品数字产业特点，集中研发交易系统， 创新交易模式，完善文化数字化的鉴定服务体系，提供集确权、确真、确值、交易、结算一站式的交易服务平台。业务涵盖国际国内数字版权鉴定、古典艺术品数字化、文创产品生产与销售、文化产品数字版权交易、文化出海、乡村振兴示范创建等</p>
+    </div>
+</div>
+</div>
+
+<div class="a3">
+<div class="width">
+	<div class="a3_pic"><img src="{pboot:sort scode=7}[sort:ico]{/pboot:sort}" alt="{pboot:sort scode=7}[sort:name]{/pboot:sort}"></div>
+    <div class="a3_p">
+    	<p class="title title2">{pboot:sort scode=7}[sort:name]{/pboot:sort}</p>
+        <div class="desc">
+        	{pboot:content scode=7}[content:content]{/pboot:content}
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+
+{include file=foot.html}
+
+</body>
+</html>

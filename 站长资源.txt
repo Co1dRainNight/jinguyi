@@ -1,0 +1,259 @@
+                              \\\|/// 
+                            \\  - -  // 
+                             (  $ $  ) 
+┏━━━━━━━━━━━━━oOOo-(_)-oOOo━━┓
+┃                                           ┃
+┃ PB模板网  Www.5MoBan.Com                  ┃
+┃                                           ┃
+┃ 最新最全的PbootCMS模板，仿站建站我们更专业┃
+┃                                           ┃
+┃ QQ:43171398  4360695                      ┃
+┃                                           ┃
+┃ http://Www.BaJieZhan.Com                  ┃
+┃                                  Oooo     ┃
+┗━━━━━━━━━━━━━ oooO━-(   )━━┛
+                             (   )   ) / 
+                              \ (   (_/ 
+                               \_)
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 万维站长网 - 精品源码，各类模板，插件等资源集中地!               ┃
+┃ 联系QQ：43171398                                                 ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                 唯一网址：WanWeiZhan.Com  欢迎收藏               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ 
+
+★QQ联系★
+QQ:43171398
+
+/* 我的PB模板网（5MoBan.com）做最好的整站PbootCMS模板下载网站 */
+/* 万维站长：www.WanWeiZhan.Com */
+/* Pboot模板网 ：www.PbootMoBan.com */
+/* 主机/服务器： Www.Elubaba.Com */
+/* 城市分站：    http://www.YunYunAn.Com */
+/* 易优模板：    http://www.eYouAdmin.Com */
+/* 助力网址:     http://www.ZLwz.Com */
+/* 新目录导航：  http://www.XinMuLu.Com */
+/* QQ：43171398 */
+/* 站长交流群①：183945698 */
+/* 站长交流群②：183966298 */
+/* 商业VIP群 ③  183989070 */
+/* 会员VIP群 ④ ：38400389 */
+
+/* 海纳吧 www.HaiNaBa.Com     */
+/* 精品与原创网站模板提供商，一站式建站 */
+/* 我的PB模板网：Www.5MoBan.Com */
+/* 主机/服务器： Www.Elubaba.Com */
+/* 城市分站：    Www.YiQiDa.Com */
+/* 三合一： Http://HaiNaNt.Com  */
+/* 主营业务：pbootcms模板、多城市分站模板、三合一模板 */
+/* QQ：43171398 */
+/* 站长交流群①：183945698 */
+/* 站长交流群②：183966298 */
+/* 商业VIP群 ③  183989070 */
+/* 会员VIP群 ④ ：38400389 */
+/* 万维站长网：www.WanWeiZhan.Com  */
+
+
+※网络分享,资源无限,流行精品,天天更新※ 
+
+
+优惠套餐：
+香港cn2 特价vps:
+特惠VPS 512M	志强E5系列 2核	512M	系统盘50G + 数据盘30G	ip1个	2M独享	Linux	-	        ￥350/年	
+特惠VPS 1G	志强E5系列 2核	1G	系统盘50G + 数据盘50G	ip个	2M独享	Linux	-	        ￥500/年	
+特惠VPS 2G	志强E5系列 4核	2G	系统盘50G + 数据盘70G	ip个	3M独享	Linux	 	        ￥700/年
+香港企业型 4G	志强E5系列 4核	4G	系统盘50G + 数据盘100G	ip个	3M独享	windows / Linux	 	￥1200/年	
+香港耀享型 8G	志强E5系列 8核	8G	系统盘50G + 数据盘120G	ip个	5M独享	windows / Linux	 	￥2200/年
+香港尊享型 16G	志强E5系列 8核	16G	系统盘50G + 数据盘160G	ip个	5M独享	windows / Linux	 	￥3200/年
+建议安装linux宝塔+系统加固+防火墙+网站防篡改，授权一个ip,永久使用，网站安全有保障（600元）。
+ 
+【香港体验型：空间200M  Mysq100M    邮箱5G5用户 月流量10G  144元/年】
+【香港入门型: 空间1G    Mysq100M    邮箱5G5用户 月流量20G  221元/年】
+【香港普及型: 空间1G    Mysq100M    邮箱5G5用户 月流量40G  306元/年】
+【香港企业型: 空间1G    Mysq100M    邮箱5G5用户 月流量60G  446元/年】
+【香港增强型: 空间1G    Mysq100M    邮箱5G5用户 月流量70G  600元/年】
+【香港商务型: 空间1.5G  Mysq100M    邮箱5G5用户 月流量80G  677元/年】【可开子站1个】
+【香港门户型: 空间2G    Mysq100M    邮箱5G5用户 月流量90G  831元/年】【可开子站2个】
+【香港超值型: 空间3G    Mysq200M    邮箱5G5用户 月流量100G 985元/年】【可开子站3个】
+【香港豪华型: 空间5G    Mysq200M    邮箱5G5用户 月流量120G 1445元/年】【可开子站4个】
+
+适用于别的服务商备过案的。
+注： 此两款产品没有强制备案接入限制，域名只要有备案号即可绑定访问
+企业专享型 5G+Mysql 500M  月流量：100G 100元/年
+个人专享型 5G+Mysql 500M  月流量：100G 100元/年
+
+国际域名 65元每年
+
+★合作站点★： 
+
+我的模板：     http://www.5MoBan.Com (PB模板网)
+万维站长：     http://www.WanWeiZhan.com
+PB模板库：     http://www.PBku.cn
+站长源码城：   http://www.CnYmc.Com
+淘搜源码网：   http://www.TaoSou.Net
+PB模板库：     http://www.PBmbk.Com
+新目录导航:    http://www.XinMuLu.Com
+PB源码网：     http://www.PBMA.Cn
+撸站：         http://www.pcLz.com
+易优模板：     http://www.eYouAdmin.Com
+模板站网：     http://www.mbzw.com  
+助力网址:      http://www.zlwz.Com 
+织梦铺：       http://www.DeDePu.Com
+海纳吧：       http://www.HaiNaBa.Com
+众乐源码：     http://www.CnCnLe.Com
+模板易建站：   http://www.MobanE.Com
+站长宝贝网：   http://Www.AdminBaBy.Com
+技术铺：       http://www.Jsp360.Com 
+优易网：       http://www.YouOtc.com
+口麦网：       http://www.KouMai.Com
+整合IDC代理：  http://www.Aliququ.com (免预付款代理)
+阿里开门：     http://www.AliDoor.com
+模板儿：       http://www.Mobaner.Com
+可觅库资源：   http://www.KeMiKu.Com
+华信商业源码： http://www.Code315.Com
+素材海：       http://www.SuCaiHai.com
+万词霸屏：     http://www.madeseo.com
+为新企：       http://www.WeiXinQi.Com
+三合一网站：   http://www.MadeCms.com
+阿里开门：     http://www.AliDoor.Net
+站长交易网：   http://www.PaiBei.Net
+商业软件网：   http://www.eboft.Cn
+商域网：       http://www.ComEc.Cn
+易维数据:      http://www.Chainaevv.Com
+网络时代：     http://www.myabcde.com
+香港空间：     http://www.hkhostweb.Com
+商华网：       http://www.ebhua.com
+商业源码：     http://www.AliDoor.Cn
+源码之家：     http://www.Code123.Cn
+商业源码网：   http://www.eb315.Com
+自助互联网：   http://www.DiyTheNet.Com
+电商主题模板： http://www.EcTheme.com
+歪猫源码网：   http://www.MyWaiMao.com
+我爱织梦：     http://www.52DeDeCms.com
+PB模板网：     http://www.EcLong.com     
+PB模板网：     http://www.PBmo.cn
+pb模板网代理:  http://www.pbqi.cn 
+pb模板演示:    http://www.pbmb.vip 
+亲测吧:        http://www.QinCeBa.com
+新云站长：     http://www.XinYunZhan.com
+站长乐：       http://www.AdminLe.Com
+易趣趣源码：   http://www.Eququ.cn
+开发堂：       http://www.KaiFaTang.Com
+站长买卖网：   http://www.AdminSale.com
+撸模板:        http://www.LuMoBan.com
+微信她：       http://www.WeiXinTa.Com
+帝国啦：       http://www.DiGouLa.Com
+站长撸：       http://www.ZhanZhangLu.com
+织梦之家：     http://www.DeDeCms123.com
+Pboot模板网：  http://www.PbootMoBan.com
+建站CMS：      http://Www.JianZhanCMS.Com
+模板之王:      http://Www.MBZW.Com
+pb自助模板网:  http://www.pbzi.cn
+比特模板：     http://www.btmb.cn
+番茄模板：     http://www.fqmb.cn
+哥哥乐：       http://www.gegele.com
+众啦模板：     http://www.cncnla.com
+
+自助建站系统：  http://www.eNiceBox.Com
+西部空间5折:    http://www.Elubaba.Com
+智慧云     :    http://www.ZhiIDC.Com
+海纳企业建站：  http://www.HaiNaCms.Com
+互联网建站系统：http://www.WangCms.Com
+网块数据：      http://www.WangBlock.Com
+全球数据：      http://www.GloIDC.Com
+海外数据：      http://www.OutIDC.Com
+快硅云：        http://www.KuaiGuiYun.com
+快云云：        http://www.KuaiYunYun.com
+
+
+大云优：        http://www.DaYunYou.com
+云优模板：      http://www.YunYouCms.com
+云优之家：      http://www.YunU123.com
+自助主题：      http://www.WpZhu.Com
+企业站群CMS:    http://www.fenzhanwang.com
+多城市分站：    http://www.fanzhanwang.com
+自助外贸建站：  http://www.DiyTheWeb.Com
+
+易趣趣站长：    http://www.Eququ.Com
+品牌推广：      http://www.PaiSeo.Com
+外贸电商实战：  http://www.MrBoke.Net
+电商博客：      http://www.JinLuZi.Cn
+金路子电商课：  http://www.JinLuZi.Com
+宝典课：        http://www.BaoDianKe.Com
+电商课：        http://www.EcEcKe.Com
+时代站长：      http://www.Myabcde.Com
+状元吧：        http://www.ZhuangYuanBa.Com
+提分呀：        http://www.TiFenYa.Com
+
+
+口麦网：       http://www.KouMai.Com
+易企达：       http://www.YiQiDa.Com
+云云安：       http://www.yunyunan.com
+我的互联网:    http://www.iHuLianWang.Com
+蓝色帝国：     http://www.BlueABC.Com
+区块网：       http://www.BlockWang.Com
+永链网：       http://www.YongChain.com
+站长撸：       http://www.ZhanZhangLu.Com
+站长买卖：     http://www.CnCnMM.Com
+省点事：       http://www.ShengDianShi.com
+搜搜资源网：   http://www.kisoso.com
+任何资源网：   http://www.AtoAny.com 
+模板阁网：     http://www.mbgw.cn
+
+资源分享：
+八戒站:        http://www.BaJieZhan.com
+小吃秀:        http://www.xcx666.com
+学艺路:        http://www.xueyilu.com 
+口麦网：       https://www.KouMai.Com
+可觅库资源：   http://www.KeMiKu.Com
+资源爱好者：   http://www.ZiYuanAi.com
+素材齐：       http://www.SuCaiQi.com
+模板齐：       http://www.MoBanQi.com
+源码齐：       http://www.YuanMaQi.com
+360资源网:     http://www.7x360.com
+资源通:        http://www.zyt123.com 
+365源码网:     http://www.7x365.com 
+互联创业吧:    http://www.hlcyb.com  
+网络招财猫:    http://www.wlzcm.com  
+世纪创业:      http://www.21cy.cn 
+互联小铺:      http://www.hLxp.cn
+私藏库:        http://www.sicangku.com
+撸宝库:        http://www.lubaoku.com 
+虚拟宝吧:      http://www.xunibaoba.com
+这撸:          http://www.zheilu.com
+三界资源网:    http://www.3ZiYuan.Com
+资源盟:        http://www.ZiYuanMeng.com
+一品资源:      http://www.YiPinZiYuan.com
+宏图网库:      http://www.htwk.cn
+众撸资源:      http://www.CnCnLu.com
+资源分享:      http://www.ZiYuanFen.com
+模板妹子:      http://www.mbmz.cn 
+我的起点:      http://www.wdqd.cn
+攒资源:        http://www.ZanZiYuan.com
+撸素材:        http://www.LuSuCai.com
+资源无限:      http://www.ZiYuan0.com
+分享资源:      http://www.FenZiYuan.com
+站长分享网：   http://www.CnZZF.com
+牛业网站：     http://www.nywz.cn
+新站长网：     http://www.ChinaXzz.com
+站客网：       http://www.ZhanKeWang.com
+站长源码集：   http://www.CnYmj.com
+马千里：       http://www.mqlw.cn
+站长模板圈：   http://www.CnMbq.com
+cms新码库：    http://www.xinmaku.com/
+cms模板库：    http://www.cmsmbk.com/
+随便搬资源网： http://www.suibianban.com/
+站长AB模板网： http://www.adminbaby.cn/
+素材海源码网： http://www.sucaihai.cn/
+随便搬模板网： http://www.suibianban.cn/
+站帮网：       http://www.zhanbw.com/
+模板排行：     http://www.mbph.cn
+pb牛X网：      http://www.pbnx.cn
+pb模板宝：     http://www.pbmbb.com 
+pb模板下载网： http://www.pbmbx.com
+pb模板园：     http://www.pbmby.com 

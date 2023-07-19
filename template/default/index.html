@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{pboot:sitetitle}</title>
+<meta name="keywords" content="{pboot:sitekeywords}">
+<meta name="description" content="{pboot:sitedescription}">
+<meta name="author" content="www.wanweizhan.com K182" />
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+{include file=head.html}
+<div class="flexslider">
+  <ul class="slides">
+    {pboot:slide gid=1 num=10}
+    <li style="background:url([slide:src]) center no-repeat; background-size:cover;"></li>
+    {/pboot:slide}
+  </ul>
+</div>
+<script type="text/javascript" src="{pboot:sitedomain}/skin/js/jquery.flexslider-min.js"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.flexslider').flexslider({
+		directionNav: true,
+		pauseOnAction: false,
+		slideshowSpeed: 4000
+	});
+});
+</script>
+<div class="about">
+  <div class="width"> {pboot:content scode=13}
+    <div class="about_p">
+      <div class="desc"> [content:content] </div>
+    </div>
+    <div class="about_pic" style="background:url([content:ico]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[content:ico]', sizingMethod='scale');"><img class="image" src="[content:ico]" alt="{pboot:companyname}"></div>
+    {/pboot:content} <a class="about_more" href="{pboot:sort scode=1}[sort:link]{/pboot:sort}"></a>
+    <div class="clear"></div>
+  </div>
+</div>
+{pboot:sort scode=2}
+<div class="product">
+  <p class="title">— [sort:name] —</p>
+  <div class="mr_frbox">
+    <div class="mr_frBtnL prev" style="font-family:'宋体';"><</div>
+    <div class="mr_frBtnR next" style="font-family:'宋体';">></div>
+    <div class="mr_frUl">
+      <ul id="mr_fu">
+        {pboot:list scode=2 num=20 order=sorting}<a class="pro1" href="[list:link]">
+        <div class="pro1_pic" style="background:url([list:ico]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[list:ico]', sizingMethod='scale');"><img class="image" src="[list:ico]" alt="[list:title]"></div>
+        <p>[list:title]</p>
+        </a> {/pboot:list}
+      </ul>
+    </div>
+  </div>
+  <a class="pro_more" href="[sort:link]">查看更多+</a> </div>
+{/pboot:sort}
+{pboot:sort scode=4}
+<div class="news">
+  <p class="title">— [sort:name] —</p>
+  <div class="mr_frbox2">
+    <div class="mr_frBtnL prev" style="font-family:'宋体';"><</div>
+    <div class="mr_frBtnR next" style="font-family:'宋体';">></div>
+    <div class="mr_frUl">
+      <ul id="mr_fu">
+        {pboot:list scode=4 num=12 order=sorting}
+        <div class="news1">
+          <div class="news1_pic" style="background:url([list:ico]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[list:ico]', sizingMethod='scale');"><img class="image" src="[list:ico]" alt="[list:title]"></div>
+          <div class="news1_h"></div>
+          <p class="news1_t">[list:title]</p>
+          <div class="desc">[list:content drophtml=1 len=65]</div>
+          <a class="news_more" href="[list:link]">查看更多</a> </div>
+        {/pboot:list}
+      </ul>
+    </div>
+  </div>
+  <a class="pro_more" href="[sort:link]">查看更多+</a> </div>
+{/pboot:sort}
+<script src="{pboot:sitedomain}/skin/js/jquery.SuperSlide2.js"></script> 
+<script type="text/javascript">
+$(document).ready(function () {
+	$(".mr_frbox").slide({
+		titCell: "",
+		mainCell: ".mr_frUl ul",
+		autoPage: true,
+		effect: "leftLoop",
+		autoPlay: true,
+		vis: 5,
+		interTime:3500
+	});
+	$(".mr_frbox2").slide({
+		titCell: "",
+		mainCell: ".mr_frUl ul",
+		autoPage: true,
+		effect: "leftLoop",
+		autoPlay: true,
+		vis: 4,
+		interTime:2500
+	});
+});
+</script> 
+{include file=foot.html}
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="5moban.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{content:title}-{pboot:sitetitle}</title>
+<meta name="keywords" content="{content:keywords}">
+<meta name="description" content="{content:description}">
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+{include file=head.html}
+
+<div class="ban" style="background:url({pboot:sort scode={sort:tcode}}[sort:pic]{/pboot:sort}) center no-repeat;"></div>
+<div class="ban_bg"></div>
+
+<div class="news_bg">
+<div class="width">
+	<p class="pro_nav">{pboot:nav parent={sort:tcode}}<a href="[nav:link]"{pboot:if('[nav:scode]'=='{sort:scode}')} class="cur2"{/pboot:if}>[nav:name]</a>{/pboot:nav}</p>
+    <p class="news_t1">{content:title}</p>
+    <p class="news_t2">{content:date style=Y-m-d}</p>
+    <div class="news_pic" align="center"><img src="{content:ico}" alt="{content:title}"></div>
+    <div class="desc" id="maximg">
+    	{content:content}
+    </div>
+</div>
+</div>
+
+{include file=foot.html}
+
+</body>
+</html>

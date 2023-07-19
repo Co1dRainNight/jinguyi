@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="www.XinYunZhan.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>{pboot:sitetitle}</title>
+<meta name="keywords" content="{pboot:sitekeywords}">
+<meta name="description" content="{pboot:sitedescription}">
+<link href="{pboot:sitedomain}/skin/css/css.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/jquery-1.11.3.min.js"></script>
+<!--[if lt IE 9]>
+<link href="{pboot:sitedomain}/skin/css/ie.css" rel="stylesheet">
+<script src="{pboot:sitedomain}/skin/js/html5shiv.js"></script>
+<script src="{pboot:sitedomain}/skin/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+{include file=head.html}
+
+<div class="ban" style="background:url({pboot:sort scode=2}[sort:pic]{/pboot:sort}) center no-repeat;"></div>
+
+<div class="pro_bg">
+<div class="width">
+	<p class="pro_nav">{pboot:nav parent=2}<a href="[nav:link]"{pboot:if('[nav:scode]'=='{sort:scode}')} class="cur2"{/pboot:if}>[nav:name]</a>{/pboot:nav}</p>
+    <div class="pro1_bg">
+    	{pboot:search num=6 order=sorting}<a class="pro1" href="[search:link]">
+            <div class="pro1_pic" style="background:url([search:ico]) center no-repeat; background-size:cover; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='[search:ico]', sizingMethod='scale');"><img class="image" src="[search:ico]" alt="[search:title]"></div>
+            <p>[search:title]</p>
+        </a>
+        {/pboot:search}
+        <div class="clear"></div>
+    </div>
+    <div class="page" align="center">{page:bar}</div>
+</div>
+</div>
+
+{include file=foot.html}
+
+</body>
+</html>
